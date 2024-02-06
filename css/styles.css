@@ -37,7 +37,19 @@ img{
     height: auto;
     display: block;
 }
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .header {
+    display: flex;
+    padding: 24px 0;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .web {
     font-weight: 800; 
@@ -56,9 +68,14 @@ img{
     font-family:'Raleway', sans-serif;
 }
 .header-nav {
-
+    display: flex;
+    align-items: center;
+    gap: 76px;
 }
 .header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 .header-item {
 }
@@ -72,6 +89,9 @@ img{
 .address {
 }
 .address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 .address-item {
 }
@@ -85,8 +105,12 @@ img{
 }
 .hero {
     background-color: var(--main-color);
+    padding: 188px 0;
 }
 .hero-title {
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
@@ -96,6 +120,9 @@ img{
     width: 496px;
 }
 .hero-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -104,12 +131,17 @@ img{
     background-color: var(--normal-color);
 }
 .features {
+    padding: 120px 0;
 }
 .features-list {
+    display: flex;
+    gap: 24px;
 }
 .features-item {
+    width: 264px;
 }
 .subtitle {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -124,8 +156,10 @@ img{
     color:var(--body-text-color);
 }
 .activity {
+    padding-bottom: 120px;
 }
 .title {
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
@@ -134,21 +168,31 @@ img{
     text-align: center;
 }
 .activity-list {
+    display: flex;
+    gap: 24px;
 }
 .activity-item {
 }
 .activity-img {
 }
 .team {
+    padding: 120px 0;
 }
 .team-list {
+    display: flex;
+    gap: 24px;
 }
 .team-item {
+}
+.team-text{
+    padding: 32px 0;
+    text-align: center;
 }
 .team-img {
 }
 .footer {
     background-color: var(--overlay-color);
+    padding: 100px 0;
 }
 .studio-footer {
     font-weight: 800; 
@@ -159,6 +203,8 @@ img{
     font-family:'Raleway', sans-serif;
 }
 .footer-descr {
+    margin-top: 18px;
+    width: 264px;
     font-weight: 400; 
     font-size: 16px;
     line-height: 24px;
