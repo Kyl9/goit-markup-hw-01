@@ -214,19 +214,27 @@ img{
 .portfolio {
 }
 .btn-list {
-
+    display: flex;
+    gap: 24px;
+    cursor: pointer;
 }
 .btn-item {
 }
 .button {
 }
 .portfolio-list {
-}
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;}
 .portfolio-item {
+    padding: 32px 0;
+    text-align: left;
 }
 .portfolio-img {
 }
 .subtitle {
+    margin-top: 32px;
+    margin-bottom: 16px;
 }
 .descr {
 }
