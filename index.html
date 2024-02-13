@@ -21,7 +21,7 @@
           >
           <ul class="header-list">
             <li class="header-item">
-              <a href="/index.html" class="header-link">Studio</a>
+              <a href="/index.html" class="header-link active">Studio</a>
             </li>
             <li class="header-item">
               <a href="/portfolio.html" class="header-link">Portfolio</a>
@@ -50,7 +50,7 @@
     <main>
       <section class="hero">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button class="hero-button">Order Service</button>
+        <button class="hero-button" data-modal-open>Order Service</button>
       </section>
       <section class="features">
         <div class="container">
@@ -440,7 +440,34 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe-container">
+          <p class="footer-subscribe">Subscribe</p>
+          <form action="" class="subscribe-form">
+            <input
+              type="email"
+              class="email"
+              name="email"
+              placeholder="E-mail"
+            />
+            <button class="subscribe-button">
+              Subscribe
+              <svg class="subscribe-svg" width="24" height="24">
+                <use href="./images/svg/symbol-defs.svg#icon-Subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close-btn" data-modal-close>
+          <svg class="modal-close-btn-icon" width="8" height="8">
+            <use href="./images/svg/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
