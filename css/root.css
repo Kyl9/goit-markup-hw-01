@@ -1,0 +1,13 @@
+:root{
+    --main-color: #2E2F42;
+    --normal-color: #4D5AE5;
+    --active-color: #404BBF;
+    --success-color: #31D0AA;
+    --body-text-color: #434455;
+    --helper-text-color: #8E8F99;
+    --accent-color: #E7E9FC;
+    --light-mode-color: #F4F4FD;
+    --overlay-color: #2E2F42;
+    --white-color: #FFFFFF;
+    --modal-color: #FCFCFC;
+}

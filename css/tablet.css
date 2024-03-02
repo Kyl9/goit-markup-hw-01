@@ -1,0 +1,124 @@
+@media screen and (min-width: 768px) and (max-width: 1157px){
+   .sub-container{
+    width: 552px;
+    padding: 0;
+   }
+    .header-nav {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+.menu-open{
+    display: none;
+}
+.header-list{
+     display: flex;
+}
+.header-nav{
+    gap: 120px;
+}
+.header{
+    padding: 0;
+}
+.address{
+    display: flex;
+}
+.address-list{
+    flex-direction: column;
+    gap: 12px;
+}
+.address-link{
+    font-size: 12px;
+    line-height: 1.16;
+}
+.hero {
+    width: 100%;
+    padding: 112px 0;
+    margin: 0 auto;
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/backgrounds/tablet-hero-bg@1x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-title{
+    font-size: 56px;
+    line-height: 1.07;
+    width: 496px;
+    margin-bottom: 36px;
+}
+.features-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.features-item {
+    width: calc((100% - 24px) / 2);
+}
+.subtitle{
+    text-align: start;
+}
+.team-list{
+    row-gap: 64px;
+    column-gap: 24px;
+}
+.team-text .subtitle{
+    text-align: center;
+}
+.customers-list{
+    row-gap: 72px;
+    column-gap: 24px;
+}
+.customers-item {
+    width: calc((100% - 48px) / 3);
+}
+.team-container{
+    padding: 0;
+}
+.footer-container{
+    text-align: start;
+    align-items: start;
+}
+.tablet-footer-container{
+    display: flex;
+    gap: 24px;
+}
+.subscribe-container{
+    width: 453px;
+    height: 80px;
+}
+.subscribe-form{
+    display: flex;
+    gap: 24px;
+    height: 40px;
+    flex-direction: row;
+}
+.footer-subscribe{
+    text-align: left;
+}
+.social-container{
+    align-items: start;
+    justify-content: start;
+}
+.logo-container{
+    align-items: start;
+    text-align: left;
+}
+.btn-list {
+    margin-bottom: 64px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+.button{
+    padding: 12px 24px;
+}
+.portfolio-item{
+    width: calc((100% - 24px) / 2);
+}
+
+.portfolio-list {
+    flex-direction: row;
+    flex-wrap: wrap;  
+    gap: 24px;
+}
+}

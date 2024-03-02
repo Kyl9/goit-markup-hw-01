@@ -1,0 +1,17 @@
+@media screen and (min-width: 480px) and (max-width: 767px){
+.sub-container{
+    width: 396px;
+    margin: 0 auto;
+}
+.hero{
+    width: 100%;
+    padding: 112px 0;
+    margin: 0 auto;
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/backgrounds/mobile-hero-bg@1x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.modal{
+    width: 392px;
+}    
+}
